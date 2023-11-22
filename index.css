@@ -1,39 +1,119 @@
 /*======= Font rengini #3C373B yapan bir yeni bir universal selector yaratın*/
-*{
-  color: #3C373B ;
+* {
+  color: #3c373b;
+  margin: 0;
 }
 
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 0 auto;
+}
+
+nav a {
+  border-radius: 20px;
+  background: #e79947;
+  text-decoration: none;
+  padding: 20px;
+  color: #fff;
+  font-family: Comic Sans MS;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+  margin-bottom: 10px;
+  white-space: nowrap;
+
+  text-overflow: clip;
+ 
+}
+
+.banner--container{
+  padding: 50px;
+  background-color: #F5F5F5;
+}
+
+.banner--container img{
+  border: none;
+  border-radius: 26px;
+}
+
+.section--padding{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.section--padding p{
+  color: #000;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 45px;
+font-style: normal;
+font-weight: 400;
+line-height: 60px; /* 133.333% */
+}
+
+.food--section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.food--section p{
+  color: #000;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 133.333% */
+}
+
+.food--section img{
+  border: none;
+  border-radius: 26px;
+}
 
 h1 {
-  font-family: 'Gaegu', cursive;
+  font-family: "Gaegu", cursive;
   margin: 20px 0;
   text-align: center;
   font-size: 60px;
 }
 
-h2, h3, h4, h5, h6 {
-  font-family: 'Gaegu', cursive;
-  margin-bottom: 0;
-  padding: 0 10px;
-  font-size: 30px;
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #3C3C3C;
+
+  font-family: Comic Sans MS;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-p{
+p {
   font-family: roboto;
   padding: 10px;
   line-height: 1.4;
 }
 
-
-img{
+img {
   border-radius: 10px;
   width: 750px;
 }
 
-.banner-img{
+.banner-img {
   width: 100%;
 }
-
 
 .content-row {
   display: flex;
@@ -57,17 +137,16 @@ img{
   color: white;
   text-decoration: none;
   margin-bottom: 20px;
-  background:#E79947 ;
-   /*======= background property yaratın. Değerini #E79947 olarak atayınız.*/
-  
+  background: #e79947;
+  /*======= background property yaratın. Değerini #E79947 olarak atayınız.*/
 }
 
 .container header nav a:hover {
   background: white;
-  color: #E79947;
+  color: #e79947;
 }
 
-.about-us{
+.about-us {
   margin-top: 20px;
 }
 
@@ -81,20 +160,19 @@ img{
   margin: 0 0 10px 0;
 }
 
-.contact-section{
+.contact-section {
   line-height: 2;
 }
 
-
 footer {
   width: 100%;
-  background: #E79947;
+  background: #e79947;
   border-top: 1px dashed white;
 }
 
-footer .footer-content { 
-  margin: 0 auto; 
-  width: 750px;  
+footer .footer-content {
+  margin: 0 auto;
+  width: 750px;
 }
 
 footer .footer-content h3 {
@@ -106,8 +184,7 @@ footer nav {
   display: flex;
 }
 
-
-footer a{
+footer a {
   margin: 10px;
   color: black;
   text-decoration: underline;
@@ -117,13 +194,11 @@ footer nav a:first-child {
   margin-left: 0;
 }
 
-footer a:hover{
+footer a:hover {
   color: white;
 }
 
-
-
 footer .footer-content .copyright {
-  padding: 20px 0; 
-   /*======= metni ortalayacak kodu yazın */
+  padding: 20px 0;
+  /*======= metni ortalayacak kodu yazın */
 }
